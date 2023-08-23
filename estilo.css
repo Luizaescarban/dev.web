@@ -1,0 +1,124 @@
+@charset "utf-8";
+@import url('https://fonts.googleapis.com/css2?family=Lexend&family=Lilita+One&display=swap');
+
+:root {
+    --cor-principal: #FFFFFF;
+
+    --cor-texto-header: #247031;
+
+    --fonte-header-footer: 'Lilita One', cursive;
+
+    --fonte-textos: 'Rubik', sans-serif;
+
+    --nav-color: #247031;
+
+    --nav-hover: #071409;
+
+    --cor-titulos: #619656;
+
+    --cor-footer: #1D2830;
+
+    --cor-conteudo: #ececec;
+}
+
+body {
+    margin: 0;
+}
+
+.header {
+    display: grid;
+    grid-template-columns: 50px 1fr;
+    position: sticky;
+    top: 0px;
+    justify-items: center;
+    align-items: center;
+    background-color: var(--cor-principal);
+    color: var(--cor-texto-header);
+    padding: 14px 16px;
+    box-shadow: 0px 3px 10px #2c3546;
+}
+
+.txtLogo {
+    font-family: var(--fonte-header-footer);
+    font-size: xx-large;
+    margin-right: 20px;
+    align-items: center;
+    justify-content: flex-start;
+    margin-left: 100px;
+}
+
+.logo {
+    align-items: center;
+    justify-content: center;
+}
+
+.nav {
+    display: flex;
+    justify-content: center;
+    margin-top: 0;
+    flex-grow: 2;
+    flex-direction: row;
+    font-family: var(--fonte-textos);
+    background-color: var(--nav-color);
+}
+
+.nav a {
+    display: flex;
+    color: var(--cor-conteudo);
+    text-align: center;
+    text-decoration: none;
+    font-size: larger;
+    padding: 0%;
+    padding: 14px 14px;
+
+}
+
+.nav a:hover {
+    transform: scale()1.1;
+    transition: all 0.5s ease-in-out;
+    background-color: var(--nav-hover);
+    color: var(--cor-conteudo);
+    padding: 14px 14px;
+}
+
+.content{
+    background-color: var(--cor-conteudo);    
+}
+.main{
+    display: flex;
+    justify-content: center;
+    margin-left: 50px;
+    margin-right: 50px;
+    text-align: justify;
+    font-family: var(--fonte-textos);
+    font-size: large; 
+    background-color: var(--cor-conteudo);
+}
+.main h1{
+    color: var(--cor-titulos);
+    font-size: xx-large;
+}
+h2{
+    font-size: x-large;
+}
+.main section{ 
+    background-color:white;
+    padding: 10px;
+    margin: 10px;
+    border-radius: 6px;
+    max-width: 800px;
+}
+
+.footer{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-self: flex-end;
+    align-items: center;
+    background-color: var(--cor-footer);
+    font-family: var(--fonte-header-footer) ;
+    color: var(--cor-conteudo);
+    width: 100%;
+    height: 150px;
+    margin-top: 5px;
+}
