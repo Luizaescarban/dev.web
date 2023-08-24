@@ -88,7 +88,7 @@ main {
     margin-right: 200px;
 }
 
-#img:hover{
+#img:hover {
     transform: scale(1.1);
     background: none;
     transition: 0.5s ease-out;
@@ -164,11 +164,13 @@ h3 {
 #noticiaprincipal {
     width: 500px;
 }
-#noticiaprincipal img:hover{
+
+#noticiaprincipal img:hover {
     transform: scale(1.1);
     background: none;
     transition: 0.5s ease-out;
 }
+
 #noticiaprincipal img {
     width: 500px;
 }
@@ -187,10 +189,11 @@ h3 {
 #p-1 {
     display: grid;
     align-items: center;
-} 
-#p--1{
+}
+
+#p--1 {
     display: grid;
-    align-items: center; 
+    align-items: center;
 }
 
 /*SECTION2*/
@@ -223,32 +226,37 @@ h3 {
     margin-left: 15px;
     font-size: larger;
 }
-.noticia1 img:hover{
+
+.noticia1 img:hover {
     transform: scale(0.9);
     background: none;
     transition: 0.5s ease-out;
 }
 
 /*SECTION3*/
-.container3{
+.container3 {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
     margin-top: 20px;
-    
+
 }
-.container3 img{
+
+.container3 img {
     width: 200px;
 }
-.container3 img:hover{
+
+.container3 img:hover {
     transform: scale(1.1);
     background: none;
     transition: 0.5s ease-out;
 }
-#img3{
+
+#img3 {
     display: grid;
     grid-template-rows: 2fr 150px;
 }
-.container3 div{
+
+.container3 div {
     margin-right: 20px;
 }
 
@@ -269,157 +277,189 @@ h3 {
 }
 
 /*RESPONSIVIDADE*/
-@media (max-width: 1000px){
-    main{
+@media (max-width: 1000px) {
+    main {
         margin-left: 0px;
         margin-right: 0px;
     }
-    #propaganda1{
+
+    #propaganda1 {
         width: 100%;
     }
+
     .logo>img {
         width: 80px;
     }
+
     .txtLogo>h1 {
         font-size: 30px;
     }
+
     header {
         grid-template-columns: 110px 1fr;
     }
+
     nav>a {
         font-size: 20px;
     }
-  
+
     main {
         grid-template-columns: 1fr 1fr;
     }
-    .container1{
+
+    .container1 {
         grid-template-columns: 1fr;
     }
-    .container2{
+
+    .container2 {
         grid-template-columns: 1fr;
     }
-    #p1{
+
+    #p1 {
         width: 200px;
     }
-    .container3{
+
+    .container3 {
         grid-template-columns: 1fr;
     }
-  }
+}
 
 @media (max-width: 800px) {
     .logo>img {
         width: 80px;
     }
+
     .txtLogo>h1 {
         font-size: 30px;
     }
+
     header {
         grid-template-columns: 110px 1fr;
     }
+
     nav>a {
         font-size: 20px;
     }
-  
+
     main {
         grid-template-columns: 1fr 1fr;
     }
-    .container1{
+
+    .container1 {
         grid-template-columns: 1fr;
     }
-    .container2{
+
+    .container2 {
         grid-template-columns: 1fr;
     }
-    #p1{
+
+    #p1 {
         width: 200px;
     }
-    .container3{
+
+    .container3 {
         grid-template-columns: 1fr;
     }
-  
-  }
-  
-  @media (max-width: 650px) {
-    #propagnada1{
+
+}
+
+@media (max-width: 650px) {
+    #propagnada1 {
         width: 350px;
         height: 150px;
         align-content: center;
     }
-    main{
+
+    main {
         margin: 0;
     }
-  }
-  @media (max-width: 600px) {
-    #propaganda1{
+}
+
+@media (max-width: 600px) {
+    #propaganda1 {
         width: 350px;
         height: 150px;
         justify-items: center;
         margin: 0px;
     }
-  }
-  @media (max-width: 490px){
-    #noticiaprincipal img{
+}
+
+@media (max-width: 490px) {
+    #noticiaprincipal img {
         width: 400px;
     }
-   #p--1{
+
+    #p--1 {
         width: 200px;
     }
-    #noticiaprincipal{
+
+    #noticiaprincipal {
         width: 400px;
     }
-    #noticiaprincipal h2{
+
+    #noticiaprincipal h2 {
         font-size: medium;
         width: 400px;
     }
-    .topicos{
+
+    .topicos {
         width: 400px;
     }
-    #p-1{
+
+    #p-1 {
         font-size: small;
         width: 400px;
     }
-    #img2 img{
-       width:180px ; 
-       height: 180px;
+
+    #img2 img {
+        width: 180px;
+        height: 180px;
     }
-    #p1{
+
+    #p1 {
         font-size: small;
         width: 200px;
     }
-    .container2{
+
+    .container2 {
         grid-template-rows: 200px 200px;
     }
-  }
-  @media (max-width: 430px) {
+}
+
+@media (max-width: 430px) {
     #propaganda1 {
         width: 150px;
         height: 100px;
     }
+
     .content {
         margin: none;
-  
+
         grid-template-columns: 1fr;
     }
-  }
-  
-  @media (max-width: 400px) {
+}
+
+@media (max-width: 400px) {
     .logo {
         display: none;
     }
+
     header {
         grid-template-columns: 1fr;
     }
+
     .txtLogo>h1 {
         font-size: 20px;
     }
+
     nav>a {
         font-size: 14px;
         margin-top: 0px;
         margin-bottom: 0px;
     }
+
     #propaganda1 {
         width: 150px;
         height: 100px;
     }
-  }
-  
+}

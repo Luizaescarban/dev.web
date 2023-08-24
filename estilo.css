@@ -80,13 +80,16 @@ body {
     color: var(--cor-conteudo);
     padding: 14px 14px;
 }
-.banner{
+
+.banner {
     margin-top: 10px;
 }
-.content{
-    background-color: var(--cor-conteudo);    
+
+.content {
+    background-color: var(--cor-conteudo);
 }
-.main{
+
+.main {
     display: grid;
     grid-template-columns: 1fr 200px;
     justify-content: center;
@@ -94,18 +97,21 @@ body {
     margin-right: 50px;
     text-align: justify;
     font-family: var(--fonte-textos);
-    font-size: large; 
+    font-size: large;
     background-color: var(--cor-conteudo);
 }
-.main h1{
+
+.main h1 {
     color: var(--cor-titulos);
     font-size: xx-large;
 }
-h2{
+
+h2 {
     font-size: x-large;
 }
-.main section{ 
-    background-color:white;
+
+.main section {
+    background-color: white;
     padding: 10px;
     margin: 10px;
     border-radius: 6px;
@@ -118,18 +124,19 @@ h2{
     margin-bottom: 15px;
     justify-items: center;
     background-color: rgb(224, 224, 224);
-    width:200px ;
+    width: 200px;
     height: 1000px;
 
 }
-.footer{
+
+.footer {
     display: flex;
     flex-direction: row;
     justify-content: space-around;
     align-self: flex-end;
     align-items: center;
     background-color: var(--cor-footer);
-    font-family: var(--fonte-header-footer) ;
+    font-family: var(--fonte-header-footer);
     color: var(--cor-conteudo);
     width: 100%;
     height: 150px;
