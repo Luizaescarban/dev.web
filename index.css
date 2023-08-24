@@ -295,15 +295,15 @@ h3 {
         font-size: 30px;
     }
 
-    header {
+    .header {
         grid-template-columns: 110px 1fr;
     }
 
-    nav>a {
+    .nav>a {
         font-size: 20px;
     }
 
-    main {
+    .main {
         grid-template-columns: 1fr 1fr;
     }
 
@@ -323,7 +323,44 @@ h3 {
         grid-template-columns: 1fr;
     }
 }
+@media (max-width: 850px) {
+    .logo>img {
+        width: 80px;
+    }
 
+    .txtLogo>h1 {
+        font-size: 30px;
+    }
+
+    .header {
+        grid-template-columns: 110px 1fr;
+    }
+
+    .nav>a {
+        font-size: 20px;
+    }
+
+    .main {
+        grid-template-columns: 1fr 1fr;
+    }
+
+    .container1 {
+        grid-template-columns: 1fr;
+    }
+
+    .container2 {
+        grid-template-columns: 1fr;
+    }
+
+    #p1 {
+        width: 200px;
+    }
+
+    .container3 {
+        grid-template-columns: 1fr;
+    }
+
+}
 @media (max-width: 800px) {
     .logo>img {
         width: 80px;
@@ -333,15 +370,15 @@ h3 {
         font-size: 30px;
     }
 
-    header {
+    .header {
         grid-template-columns: 110px 1fr;
     }
 
-    nav>a {
+    .nav>a {
         font-size: 20px;
     }
 
-    main {
+    .main {
         grid-template-columns: 1fr 1fr;
     }
 
@@ -431,35 +468,181 @@ h3 {
         width: 150px;
         height: 100px;
     }
-
+    .header{
+        grid-template-columns: 1fr;
+            }
+    .txtLogo{
+        display: none;
+    }
     .content {
         margin: none;
 
         grid-template-columns: 1fr;
     }
+    #p--1{
+        width: 150px;
+    }
 }
 
 @media (max-width: 400px) {
+    #propaganda1{
+        width: 300px;
+    }
     .logo {
         display: none;
     }
 
-    header {
+    .header {
         grid-template-columns: 1fr;
+        justify-content: center;
     }
 
-    .txtLogo>h1 {
-        font-size: 20px;
+    .txtLogo{
+        display: flex;
+        justify-items: center;
+        justify-content: center;
     }
 
-    nav>a {
-        font-size: 14px;
+    .nav>a {
+        font-size: 10px;
         margin-top: 0px;
         margin-bottom: 0px;
     }
 
-    #propaganda1 {
-        width: 150px;
-        height: 100px;
+    #noticiaprincipal img {
+        width: 300px;
+    }
+
+    #p--1 {
+        width: 200px;
+    }
+
+    #noticiaprincipal {
+        width: 300px;
+    }
+
+    #noticiaprincipal h2 {
+        font-size: medium;
+        width: 300px;
+    }
+
+    .topicos {
+        width: 300px;
+    }
+
+    #p-1 {
+        font-size: small;
+        width: 300px;
+    }
+    #p--1 {
+        font-size: small;
+        width: 100px;
+    }
+
+    #img2 {
+        width: 180px;
+        height: 180px;
+    }
+
+    #p1 {
+        width: 200px;
+        font-size: small;
+        
+    }
+
+    .container2 {
+        grid-template-rows: 150px 150px;
+    }
+    #img2 img{
+        width: 130px;
+        height: 130px;
+    }
+    h1{
+        font-size: medium;
+    }
+    .container3 p{
+        font-size: small;
+        margin: 10px;
+    }
+}
+@media (max-width: 390px){
+    #propaganda1{
+        width: 350px;
+    }
+    .logo {
+        display: none;
+    }
+
+    .header {
+        grid-template-columns: 1fr;
+        justify-content: center;
+    }
+
+    .txtLogo{
+        display: flex;
+        justify-items: center;
+        justify-content: center;
+    }
+
+    nav>a {
+        font-size: 10px;
+        margin-top: 0px;
+        margin-bottom: 0px;
+    }
+
+    #noticiaprincipal img {
+        width: 350px;
+    }
+
+    #p--1 {
+        width: 200px;
+    }
+
+    #noticiaprincipal {
+        width: 300px;
+    }
+
+    #noticiaprincipal h2 {
+        font-size: medium;
+        width: 350px;
+    }
+
+    .topicos {
+        width: 350px;
+    }
+
+    #p-1 {
+        font-size: small;
+        width: 350px;
+    }
+    #p--1 {
+        font-size: small;
+        width: 100px;
+    }
+
+    #img2 {
+        width: 180px;
+        height: 180px;
+    }
+
+    #p1 {
+        width: 200px;
+        font-size: small;
+        
+    }
+
+    .container2 {
+        grid-template-rows: 150px 150px;
+    }
+    #img2 img{
+        width: 130px;
+        height: 130px;
+    }
+    h1{
+        font-size: medium;
+    }
+    .container3 p{
+        font-size: small;
+        margin: 10px;
     }
 }
