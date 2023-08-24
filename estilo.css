@@ -80,12 +80,15 @@ body {
     color: var(--cor-conteudo);
     padding: 14px 14px;
 }
-
+.banner{
+    margin-top: 10px;
+}
 .content{
     background-color: var(--cor-conteudo);    
 }
 .main{
-    display: flex;
+    display: grid;
+    grid-template-columns: 1fr 200px;
     justify-content: center;
     margin-left: 50px;
     margin-right: 50px;
@@ -109,6 +112,16 @@ h2{
     max-width: 800px;
 }
 
+#propaganda1 img {
+    margin-top: 20px;
+    padding: bottom 20px;
+    margin-bottom: 15px;
+    justify-items: center;
+    background-color: rgb(224, 224, 224);
+    width:200px ;
+    height: 1000px;
+
+}
 .footer{
     display: flex;
     flex-direction: row;
